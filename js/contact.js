@@ -35,23 +35,23 @@ $(document).ready(function () {
                 },
                 messages: {
                     name: {
-                        required: "Indique o seu nome",
-                        minlength: "O nome deverá conter pelo menos dois caracteres"
+                        required: "Nhập tên cảu bạn trước khi gửi",
+                        minlength: "Độ dài tối thiểu 2 ký tự"
                     },
                     subject: {
-                        required: "Indique o assunto",
-                        minlength: "O assunto deverá conter pelo menos quatro caracteres"
+                        required: "Nhập chủ đề trước khi gửi",
+                        minlength: "Độ dài tối thiểu 5 ký tự"
                     },
                     number: {
                         required: "come on, you have a number, don't you?",
                         minlength: "your Number must consist of at least 5 characters"
                     },
                     email: {
-                        required: "Indique o seu email"
+                        required: "Nhập email của bạn trước khi gửi"
                     },
                     message: {
-                        required: "Escreva uma mensagem",
-                        minlength: "A mensagem deverá conter pelo menos vinte caracteres"
+                        required: "Nhập nội dung trước khi gửi",
+                        minlength: "Độ dài tối thiểu 20 ký tự"
                     }
                 },
                 submitHandler: function (form) {

@@ -1194,6 +1194,7 @@ h3 {
 
 .about_area .about_info {
   padding-left: 68px;
+  padding-right: 68px;
 }
 
 @media (max-width: 767px) {
@@ -1464,7 +1465,7 @@ h3 {
 }
 
 .financial_solution_area {
-  padding: 50px 0;
+  padding: 100px 0 50px 0;
 }
 
 .financial_solution_area.minus_top_padding {
@@ -2786,8 +2787,8 @@ h3 {
 }
 
 .testmonial_area {
-  padding-top: 0px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -2910,10 +2911,13 @@ h3 {
 .service_bg_3 {
   background-image: url(../img/about/servicos_internacionais.png);
 }
+.service_bg_nhua_8{
+  background-image:  url(../img/products/nhua8.png);
+}
 
 .service_area {
-  padding-top: 150px;
-  padding-bottom: 25px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
